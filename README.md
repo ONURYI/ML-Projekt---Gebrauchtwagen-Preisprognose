@@ -19,8 +19,6 @@ Die Projektstruktur umfasst die folgenden Dateien und Verzeichnisse:
 
 - `requirements.txt`: Eine Datei, die alle notwendigen Python-Bibliotheken und -Versionen enthält, die für das Projekt benötigt werden.
 
-- `LICENSE`: Die Lizenzinformationen für den Code.
-
 ## Vorgehen
 
 Das ML-Projekt zur Preisvorhersage von Gebrauchtwagen umfasst folgende Schritte:
