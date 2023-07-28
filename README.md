@@ -8,9 +8,9 @@ Dieses Repository enthält ein Machine Learning (ML) Projekt, das sich auf die P
 
 Das ML-Projekt verwendet den folgenden Datensatz:
 
-[Used Car Dataset (Ford and Mercedes)](https://www.kaggle.com/datasets/adityadesai13/used-car-dataset-ford-and-mercedes)
+[Used Car Dataset](https://www.kaggle.com/datasets/adityadesai13/used-car-dataset-ford-and-mercedes)
 
-Der Datensatz enthält umfangreiche Informationen über Gebrauchtwagen von Ford und Mercedes. Er umfasst verschiedene Merkmale und Eigenschaften der Fahrzeuge sowie die dazugehörigen Verkaufspreise. Die Daten werden für das Training und die Bewertung der ML-Modelle verwendet.
+Der Datensatz enthält umfangreiche Informationen über Gebrauchtwagen von Ford, Mercedes, etc.. Er umfasst verschiedene Merkmale und Eigenschaften der Fahrzeuge sowie die dazugehörigen Verkaufspreise. Die Daten werden für das Training und die Bewertung der ML-Modelle verwendet.
 
 ## Projektstruktur
 
