@@ -30,7 +30,7 @@ Die Projektstruktur umfasst die folgenden Dateien und Verzeichnisse:
 
 Das ML-Projekt zur Preisvorhersage von Gebrauchtwagen umfasst folgende Schritte:
 
-1. Datenerfassung: Sammeln von Gebrauchtwagendaten aus verschiedenen Quellen.
+1. Datenerfassung: Sammeln von Gebrauchtwagendaten aus [Used Car Dataset](https://www.kaggle.com/datasets/adityadesai13/used-car-dataset-ford-and-mercedes).
 
 2. Datenbereinigung: Bereinigung der Daten, Entfernen von Duplikaten und Anpassen von fehlenden oder ungültigen Werten.
 
