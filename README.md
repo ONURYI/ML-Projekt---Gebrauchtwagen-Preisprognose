@@ -22,8 +22,6 @@ Die Projektstruktur umfasst die folgenden Dateien und Verzeichnisse:
 
 - `modelle/`: In diesem Ordner werden die trainierten ML-Modelle gespeichert, die für die Preisvorhersage genutzt werden.
 
-- `dokumentation/`: In diesem Verzeichnis ist die Dokumentation des Projekts abgelegt. Sie enthält Informationen zur Datenquelle, zum Vorgehen, zu den Modellen und den Ergebnissen.
-
 - `requirements.txt`: Eine Datei, die alle notwendigen Python-Bibliotheken und -Versionen enthält, die für das Projekt benötigt werden.
 
 ## Vorgehen
