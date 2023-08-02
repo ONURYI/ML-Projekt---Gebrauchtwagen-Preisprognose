@@ -1,8 +1,9 @@
 import streamlit as st
-import xgboost as xgb
 import numpy as np
+import xgboost as xgb
 import pandas as pd
 import pickle
+
 
 # LabelEncoder-Objekte laden
 with open('./model/label_encoders.pkl', 'rb') as handle:
@@ -12,12 +13,21 @@ with open('./model/label_encoders.pkl', 'rb') as handle:
 bst = xgb.Booster()
 bst.load_model('./model/xgb_model.json')
 
+# DataFrame laden
+df_clean = pd.read_csv('./data (clean)/df_clean.csv')  # Pfad zu deinen bereinigten Daten
+unique_brand_model_combinations = df_clean.groupby('Marke')['Modell'].unique().to_dict()
+
 # Titel der App
 st.title('Auto Preisvorhersage')
 
-# Eingabefelder für die Benutzereingaben
+# Eingabefeld für die Marke
 marke = st.selectbox('Marke', label_encoders['Marke'].classes_)
-modell = st.selectbox('Modell', label_encoders['Modell'].classes_)
+
+# Eingabefeld für das Modell, basierend auf der ausgewählten Marke
+models_for_selected_brand = label_encoders['Modell'].classes_[np.isin(label_encoders['Modell'].classes_, unique_brand_model_combinations[marke])]
+modell = st.selectbox('Modell', models_for_selected_brand)
+
+# Restliche Eingabefelder
 baujahr = st.number_input('Baujahr', min_value=1980, max_value=2023)
 getriebe = st.selectbox('Getriebe', label_encoders['Getriebe'].classes_)
 kilometerstand = st.number_input('Kilometerstand', min_value=0)
