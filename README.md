@@ -45,3 +45,16 @@ Das ML-Projekt zur Preisvorhersage von Gebrauchtwagen umfasst folgende Schritte:
 8. Modelloptimierung: Feinabstimmung des Modells, um die Vorhersagegenauigkeit zu verbessern.
 
 9. Preisvorhersage: Verwendung des trainierten Modells, um den Preis für neue Gebrauchtwagen vorherzusagen.
+
+## Streamlit-Anwendung
+
+Dieses Projekt enthält auch eine Streamlit-Anwendung, mit der Sie die Gebrauchtwagen-Preisvorhersage in einer interaktiven Benutzeroberfläche erkunden können. 
+
+Um die Streamlit-Anwendung lokal auszuführen, folgen Sie diesen Schritten:
+
+1. Stellen Sie sicher, dass Sie alle Anforderungen aus der `requirements.txt` installiert haben.
+2. Navigieren Sie zum Projektverzeichnis und führen Sie den folgenden Befehl aus:
+
+   ```bash
+   streamlit run ml_model.py
+
