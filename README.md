@@ -57,5 +57,5 @@ Um die Streamlit-Anwendung lokal auszuführen, folgen Sie diesen Schritten:
 
    ```bash
    streamlit run ml_model.py
-   ![Vorschau](./streamlit/auszug.png)
+![Auszug](./auszug.png)
 
