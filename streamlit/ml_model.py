@@ -18,7 +18,7 @@ df_clean = pd.read_csv('./data (clean)/df_clean.csv')  # Pfad zu deinen bereinig
 unique_brand_model_combinations = df_clean.groupby('Marke')['Modell'].unique().to_dict()
 
 # Titel der App
-st.title('Auto Preisvorhersage')
+st.title('Gebrauchtwagen Preisvorhersage')
 
 # Eingabefeld für die Marke
 marke = st.selectbox('Marke', label_encoders['Marke'].classes_)
