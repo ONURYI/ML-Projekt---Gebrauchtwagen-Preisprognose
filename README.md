@@ -40,11 +40,8 @@ Das ML-Projekt zur Preisvorhersage von Gebrauchtwagen umfasst folgende Schritte:
 
 6. Modelltraining: Training des ausgewählten Modells mit den bereinigten und vorverarbeiteten Daten.
 
-7. Modellbewertung: Evaluierung der Modellleistung anhand geeigneter Metriken und Tests.
+7. Modellbewertung: Evaluierung der Modellleistung anhand geeigneter Metriken.
 
-8. Modelloptimierung: Feinabstimmung des Modells, um die Vorhersagegenauigkeit zu verbessern.
-
-9. Preisvorhersage: Verwendung des trainierten Modells, um den Preis für neue Gebrauchtwagen vorherzusagen.
 
 ## Streamlit-Anwendung
 
